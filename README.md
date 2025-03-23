@@ -62,13 +62,6 @@ flowchart TD
         Y --> Z[Model Retraining]
         Z -.-> E
     end
-
-    subgraph Dashboard["Reporting & Dashboard"]
-        W --> AA[Recovery Rate Reports]
-        X --> BB[Strategy Performance Metrics]
-        Y --> CC[Improvement Suggestions]
-        AA & BB & CC --> DD[Executive Dashboard]
-    end
 ```
 
 ## 🔍 Key Features
