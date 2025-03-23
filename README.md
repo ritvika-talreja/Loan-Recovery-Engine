@@ -119,7 +119,7 @@ cd loan-recovery-engine
 
 ```bash
 # Run the main analysis script
-python loan_recovery_analysis.py
+python loan_recovery_engine.py
 ```
 
 ## 📋 Sample Results
