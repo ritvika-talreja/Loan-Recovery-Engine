@@ -19,6 +19,7 @@ This project implements an intelligent loan recovery system that uses machine le
 ## 🏗️ System Architecture
 
 ```mermaid
+%%{init: {'theme': 'default', 'themeVariables': { 'primaryColor': '#f0f8ff', 'primaryTextColor': '#003366', 'primaryBorderColor': '#7fc1ff', 'lineColor': '#3498db', 'secondaryColor': '#f1f8e9', 'tertiaryColor': '#e8f5e9' }}}%%
 flowchart TD
     subgraph DataIngestion["Data Ingestion & Storage"]
         A[Loan Data Collection] --> B[(Database)]
